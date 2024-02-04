@@ -4,7 +4,7 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
 	<title>Shrishti Karkera</title>
 	<meta charset="utf-8" />
@@ -24,7 +24,7 @@
 		<p>Welcome to my portfolio.<br />
 			This website reflects my enthusiasm for Artificial Intelligence and my momentum within the field.</p>
 		<ul class="actions">
-			<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			<li><a href="#main" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
 		</ul>
 	</div>
 
@@ -37,6 +37,9 @@
 	<nav id="nav">
 		<ul class="links">
 			<li class="active"><a href="index.html">Portfolio</a></li>
+			<li><a href="#experience">Experience</a></li>
+			<li><a href="#research">Research</a></li>
+			<li><a href="#projects">Projects</a></li>
 			<li><a href="contact.html">Get in touch</a></li>
 <!--			<li><a href="elements.html">Elements Reference</a></li>-->
 		</ul>
@@ -54,48 +57,90 @@
 
 			<!-- Text stuff -->
 
-			<h2>Introduction</h2>
+			<h2>About me</h2>
 			<p><span class="image left"><img src="images/white_new.png" alt="" /></span>
 			<div class="box">
-				<p style="font-style: italic;"><b>I am currently pursuing my Masters in Computer Science and Engineering with a focus in Artificial Intelligence, encompassing a broad spectrum of relevant courses such as Natural Language Processing, Computational Linguistics, Machine Learning, Distributed Systems, Operating Systems, and Analysis of Algorithms. Exposure to Machine Learning and Computer Vision during my undergraduate years prompted me to delve into the field further. Subsequently, I dedicated 1.5 years post-Bachelors to gaining practical experience in these areas as a Machine Learning Engineer.</b></p>
+				<p style="font-style: italic;">I recently graduated with my Masters in Computer Science and focus in Artificial Intelligence, encompassing a broad spectrum of relevant courses such as Natural Language Processing, Computational Linguistics, Machine Learning, Distributed Systems, Operating Systems, and Analysis of Algorithms. Exposure to Machine Learning and Computer Vision during my undergraduate years prompted me to delve into the field further. Subsequently, I dedicated 1.5 years post-Bachelors to gaining practical experience in these areas as a Machine Learning Engineer.</p>
 			</div>
 			</p>
 			<hr />
 
-			<h2>Education</h2>
-			<header>
-				<p><span class="image left"><a href="https://www.buffalo.edu/"; target="_blank"><img src="images/ub_logo.png" alt="" /></a></span><h3>University at Buffalo, State University of New York</h3> Master of Science, Computer Science and Engineering</p>
-				<hr />
-				<p><span class="image left"><a href="https://mu.ac.in/"; target="_blank"> <img src="images/um_logo.jpg" alt="" /></a></span><h3>University of Mumbai</h3> Bachelor in Engineering, Information Technology</p>
-			</header>
-			<br />
-			<hr />
+<!--			<h2>Education and Work Experience</h2>-->
+<!--			<header>-->
+<!--				<p><span class="image left"><a href="https://www.buffalo.edu/"; target="_blank"><img src="images/ub_logo.png" alt="" /></a></span>-->
+<!--				<h3>University at Buffalo, State University of New York</h3> Master of Science, Computer Science and Engineering  [Aug, 2022 - Dec, 2023]</p>-->
+<!--				<hr />-->
+<!--				<p><span class="image left"><a href="https://mu.ac.in/"; target="_blank"> <img src="images/um_logo.jpg" alt="" /></a></span>-->
+<!--				<h3>University of Mumbai</h3> Bachelor in Engineering, Information Technology  [Jun, 2017 - Jun, 2021]</p>-->
+<!--			</header>-->
+<!--			<br />-->
+<!--			<hr />-->
+			<div id="experience"> </div>
+			<h2>Education and Work Experience<pre>Journey through a diverse spectrum of educational pursuits and professional experiences</pre></h2>
+<!--			<p><span class="image left"><a href="https://www.thrivent.com/"; target="_blank"><img src="images/thrivent_half.jpeg"></a></span><h3>Associate Data Engineer Intern, Thrivent</h3>-->
+<!--			<ul>-->
+<!--				<li style="font-size: small;mso-char-indent-size: 0">Querying and Summarization with LangChain - Created Document Summarization and Information Retrieval services tailored to handle patients’ medical history with a BERTScore of 0.93 and 0.92, respectively, and deployed the LangChain pipeline with MLFlow</li>-->
+<!--				<li style="font-size: small;mso-char-indent-size: 0">Statistical Data-Pipeline using Airflow - Built model scoring scripts and orchestrated a data-pipeline to generate Basedata and Data-drift statistics for Propensity to Buy (PTB) models using DataBricks and orchestrated the pipeline with AWS managed Airflow</li>-->
+<!--			</ul></p>-->
+<!--			<p><span class="image left"><a href="https://www.quantiphi.com/"; target="_blank"><img src="images/quantiphi_half.png"></a></span><h3>Machine Learning Engineer, Quantiphi</h3>-->
+<!--			<ul>-->
+<!--				<li style="font-size: small;mso-char-indent-size: 0">I engaged in designing a Deep Learning based solution for Network Auto Fault Intrusion Detection and increased the recall score by 5.3% (0.9990) to diagnose cyber attacks. By experimenting with bagging and boosting algorithms like Random Forest, XGBoost and more, I was able to orchestrate and deploy the model using Docker.</li>-->
+<!--				<li style="font-size: small;mso-char-indent-size: 0">I also worked with Unified Object Detection and Tracking utilizing IVA framework by engineering an MLOps pipeline in integration with MLFlow and GCP Vertex AI for object detection and tracking use cases like number plate recognition and face mask detection leveraging different flavors of YOLO, FairMOT, and BYTEtrack.</li>-->
+<!--			</ul></p>-->
+			<blockquote>
+			</blockquote>
+			<h3 style="color: darkred"> <a href="https://www.thrivent.com">Machine Learning Intern, Thrivent</a><pre>[May, 2023 - Aug, 2023]</pre></h3>
+			<blockquote>
+				<ul>
+					<li style="font-size: small;mso-char-indent-size: 0">Created document summarization and information retrieval services tailored to query medical documents with ChromaDB and LangChain using Dolly 2.0 12b with an average BERTScore of 0.93</li>
+					<li style="font-size: small;mso-char-indent-size: 0">Built model scoring scripts for generating data-drift and concept-drift statistics to monitor mutual fund propensity using DataBricks and orchestrated it with AWS managed Airflow to reduce potential financial losses by preventing erroneous model</li>
+					<li style="font-size: small;mso-char-indent-size: 0">Operationalized the monitoring framework in production using Bamboo, Airflow and Bitbucket, ensuring seamless deployment and integration within the existing system which also notifies stakeholders about mis-classification and performance issues</li>
+				</ul>
+				</blockquote>
 
-			<h2>Work Experience</h2>
-			<p><span class="image left"><a href="https://www.thrivent.com/"; target="_blank"><img src="images/thrivent_half.jpeg"></a></span><h3>Associate Data Engineer Intern, Thrivent</h3>
-			<ul>
-				<li style="font-size: small;mso-char-indent-size: 0">Querying and Summarization with LangChain - Created Document Summarization and Information Retrieval services tailored to handle patients’ medical history with a BERTScore of 0.93 and 0.92, respectively, and deployed the LangChain pipeline with MLFlow</li>
-				<li style="font-size: small;mso-char-indent-size: 0">Statistical Data-Pipeline using Airflow - Built model scoring scripts and orchestrated a data-pipeline to generate Basedata and Data-drift statistics for Propensity to Buy (PTB) models using DataBricks and orchestrated the pipeline with AWS managed Airflow</li>
-			</ul></p>
-			<p><span class="image left"><a href="https://www.quantiphi.com/"; target="_blank"><img src="images/quantiphi_half.png"></a></span><h3>Machine Learning Engineer, Quantiphi</h3>
-			<ul>
-				<li style="font-size: small;mso-char-indent-size: 0">I engaged in designing a Deep Learning based solution for Network Auto Fault Intrusion Detection and increased the recall score by 5.3% (0.9990) to diagnose cyber attacks. By experimenting with bagging and boosting algorithms like Random Forest, XGBoost and more, I was able to orchestrate and deploy the model using Docker.</li>
-				<li style="font-size: small;mso-char-indent-size: 0">I also worked with Unified Object Detection and Tracking utilizing IVA framework by engineering an MLOps pipeline in integration with MLFlow and GCP Vertex AI for object detection and tracking use cases like number plate recognition and face mask detection leveraging different flavors of YOLO, FairMOT, and BYTEtrack.</li>
-			</ul></p>
-			<hr />
+			<h3 style="color: darkblue"> <a href="https://www.buffalo.edu/">University at Buffalo, The State University of New York</a><pre>[Aug, 2022 - Dec, 2023]</pre></h3>
+			<blockquote>
+				<h4>Masters in Computer Science and Engineering</h4>
+				<p style="font-size: smaller">Relevant coursework - Natural Language Processing, Computational Linguistics, Analysis of Algorithms, Machine Learning, Distributed Systems, Operating Systems</p>
+			</blockquote>
+			<h3 style="color: lightseagreen"><a href="https://www.quantiphi.com">Machine Learning Engineer, Quantiphi</a><pre>[Feb, 2021 - Jun, 2022]</pre></h3>
+			<blockquote>
+				<h4>Unified Ride Safety System with IVA (Intelligent Video Analytics) framework</h4>
+				<ul>
+					<li style="font-size: small;mso-char-indent-size: 0">Engineered BYTEtrack based real time object detection and tracking system to track riders’ actions at adventure park rides to enhance safety with a precision rate of 0.9534 and mitigate the risk of injuries</li>
+					<li style="font-size: small;mso-char-indent-size: 0">Developed Flask APIs to execute real-time inferences using NVIDIA TensorRT and store the annotated images in Redis DB</li>
+					<li style="font-size: small;mso-char-indent-size: 0">Utilized Vertex AI for model tracking and operationalised a 60-70% reusable platform architecture with modular components </li>
+				</ul>
+				<h4>Network Auto-Fault Management System</h4>
+				<li style="font-size: small;mso-char-indent-size: 0">Devised network anomaly detection system using XGBoost algorithm to diagnose 26 specific cyber attacks </li>
+				<li style="font-size: small;mso-char-indent-size: 0">Explored on-site benchmarked network dataset and experimented with different bagging and boosting algorithms like Random Forest and XGBoost comprehensively and achieved 5.3% improved recall score of 0.976</li>
+				<li style="font-size: small;mso-char-indent-size: 0">Mitigated the risk of downtime and data loss by streamlining real time alerts on-premise to responsible stakeholders</li>
+			</blockquote>
+			<h3 style="color: indianred"><a href="https://mu.ac.in/">University of Mumbai</a><pre>[Jun, 2017 - Jun, 2021]</pre></h3>
+			<blockquote>
+				<h4>Bachelors in Computer Science</h4>
+				<p style="font-size: smaller">Relevant coursework - Data Structure and Algorithms, Database Systems, Data Mining and statistics, Applied Mathematics, Advance Database and Distributed Systems, Big Data, Computer Graphics</p>
+			</blockquote>
+			<hr/>
 
-			<h2>Projects</h2>
+
+			<div id="projects"> </div>
+			<h2>Projects<pre>An art gallery of innovation and creativity</pre></h2>
 			<header>
+			<h3>Github Q&A using Retrieval Augmented Generation (RAG)</h3>
+			<h3>Programming massively parallel systems</h3>
+				<p>Implemented parallel algorithm in Python and MPI to solve the Knapsack algorithm, leveraging parallel processing with distributed memory for performance gains over sequential code execution <a href="https://github.com/ShrishtiKarkera/Programming-Massively-Parallel-Systems"; target="_blank"; style="color: darkblue">(github)</a> </p>
 			<h3>Hallucination Free Dialogue Generation</h3>
-			<p>Designed 2 stage Faithful Dialogue Generator with a hallucination critic using BiLSTM models as Siamese network and T5 model as an Initial Response Generator (IRG) and Faithful Response Editor (FRE) <a href="https://github.com/TheJaeLal/NLP_Hallucination"; target="_blank"; style="color: darkblue">(github)</a> </p>
+				<p>Designed 2 stage Faithful Dialogue Generator with a hallucination critic using BiLSTM models as Siamese network and T5 model as an Initial Response Generator (IRG) and Faithful Response Editor (FRE) <a href="https://github.com/TheJaeLal/NLP_Hallucination"; target="_blank"; style="color: darkblue">(github)</a> </p>
 			<h3>Pintos Operating Systems</h3>
 				<p>Incorporated priority scheduling, alarm clocks, and interrupt handling on the Pintos skeleton. Enabled argument passing and system calls to execute user programs. Implemented fundamental file system operations with virtual memory <a href="https://github.com/CSE-421-521/f22-pa2_userthreads"; target="_blank"; style="color: darkblue" ">(github)</a> </p>
-				<h3>Distributed Systems Algorithms</h3>
+			<h3>Distributed Systems Algorithms</h3>
 				<p>Implemented distributed Map Reduce Algorithm (both sequential and parallel), Chandy Lamport distributed snapshot algorithm, Raft Consensus Algorithm utilizing GoLang <a href="https://github.com/Distributed-Systems-at-Buffalo/labs-fall22-ShrishtiKarkera"; target="_blank"; style="color: darkblue">(github)</a> </p>
 			</header>
 			<hr />
 
-			<h2>Research Work</h2>
+			<div id="research"> </div>
+			<h2>Research Work <pre>Unraveling the intricate realm of Machine Learning and AI</pre></h2>
 			<header>
 			<h3>Supervised Research, University at Buffalo</h3>
 			<p style="font-size: medium; mso-char-indent-size: 0">My past Machine Learning experience got me research work in the University and I actively participated in research under the supervision of <a href="https://www.xlab-ub.com/"; target="_blank";style="color: #717981"> Dr. Jinjun Xiong</a>. Throughout this engagement, I explored the correlation between the efficacy of object detection and tracking models and the resolution of the microcontroller camera and its processing. I primarily dealt with TinyML models, including YOLObile and FOMO.</p>
@@ -103,14 +148,49 @@
 			<p style="font-size: medium">Using images extracted from Google Earth Engine using ArcMap, water quality parameters such as COD, BOD, and 4 more were isolated by applying various bandwidth filters. The gathered data was then scrutinized across 13 predetermined geographical regions, and by discerning patterns, predictions regarding water quality were formulated. Additionally, recommendations for enhancing water quality were proposed based on the analysis.</p>
 			</header>
 			<hr />
-			<h2>Skills</h2>
+			<h2>Skills <pre>My current tech-suite</pre></h2>
 			<header>
 			<h3>Programming Languages</h3>
-			<p>Python, Java, SQL, C, Go, Octave, R, Prologue, HTML</p>
+				<ul class="actions">
+					<li><a href="" class="button" onclick="return false">Python</a></li>
+					<li><a href="" class="button" onclick="return false">Java</a></li>
+					<li><a href="" class="button" onclick="return false">SQL</a></li>
+					<li><a href="" class="button" onclick="return false">C</a></li>
+					<li><a href="" class="button" onclick="return false">Go</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="" class="button" onclick="return false">Octave</a></li>
+					<li><a href="" class="button" onclick="return false">R</a></li>
+					<li><a href="" class="button" onclick="return false">Prologue</a></li>
+					<li><a href="" class="button" onclick="return false">HTML</a></li>
+				</ul>
 			<h3>Frameworks</h3>
-			<p>Pyspark, TensorFlow, Keras, PyTorch, LangChain, Databricks, GCP VertexAI, Amazon SageMaker, Airflow</p>
+				<ul class="actions">
+					<li><a href="" class="button" onclick="return false">Pyspark</a></li>
+					<li><a href="" class="button" onclick="return false">TensorFlow</a></li>
+					<li><a href="" class="button" onclick="return false">Keras</a></li>
+					<li><a href="" class="button" onclick="return false">PyTorch</a></li>
+					<li><a href="" class="button" onclick="return false">LangChain</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="" class="button" onclick="return false">Databricks</a></li>
+					<li><a href="" class="button" onclick="return false">GCP Vertex AI</a></li>
+					<li><a href="" class="button" onclick="return false">Amazon SageMaker</a></li>
+					<li><a href="" class="button" onclick="return false">Airflow</a></li>
+				</ul>
 			<h3>Other</h3>
-				<p>PyCharm, Github, Bitbucket, Bamboo, OpenAI, Docker, Jenkins</p>
+				<ul class="actions">
+					<li><a href="" class="button" onclick="return false">PyCharm</a></li>
+					<li><a href="" class="button" onclick="return false">Github</a></li>
+					<li><a href="" class="button" onclick="return false">Bitbucket</a></li>
+					<li><a href="" class="button" onclick="return false">Bamboo</a></li>
+					<li><a href="" class="button" onclick="return false">OpenAI</a></li>
+				</ul>
+				<ul class="actions">
+					<li><a href="" class="button" onclick="return false">Docker</a></li>
+					<li><a href="" class="button" onclick="return false">Jenkins</a></li>
+				</ul>
+
 			</header>
 			<hr />
 
